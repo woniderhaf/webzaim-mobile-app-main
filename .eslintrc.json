@@ -1,0 +1,94 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint", "import", "jsx-a11y"],
+    "parserOptions": {
+        "project": "./tsconfig.eslint.json"
+    },
+    "extends": ["@react-native-community", "airbnb-typescript", "plugin:prettier/recommended"],
+    "settings": {
+        "react": {
+            "version": "detect"
+        },
+        "import/resolver": {
+            "node": {
+                "extentions": [".js", ".jsx", ".ts", ".tsx"]
+            }
+        }
+    },
+    "rules": {
+        "@typescript-eslint/no-shadow": ["error"],
+        "no-shadow": "off",
+        "no-undef": "off",
+        "max-len": [
+            "error",
+            120,
+            {
+                "ignoreUrls": true,
+                "ignoreComments": true,
+                "ignoreRegExpLiterals": true,
+                "ignoreStrings": true,
+                "ignoreTemplateLiterals": true
+            }
+        ],
+        "react/jsx-filename-extension": "off",
+        "no-console": [
+            0,
+            {
+                "allow": ["warn", "error"]
+            }
+        ],
+        "no-irregular-whitespace": [
+            "error",
+            {
+                "skipTemplates": true
+            }
+        ],
+        "curly": ["error", "all"],
+        "object-curly-spacing": ["error", "always"],
+        "no-use-before-define": 0,
+        "@typescript-eslint/no-use-before-define": "warn",
+        "@typescript-eslint/comma-dangle": ["error", "never"],
+        "import/order": [
+            "error",
+            {
+                "groups": ["builtin", "external", "parent", "sibling", "index"]
+            }
+        ],
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-one-expression-pre-line": "off",
+        "react/require-default-props": "off",
+        "object-curly-newline": "off",
+        "import/prefer-default-export": "off",
+        "@typescript-eslint/indent": 0,
+        "padding-line-between-statements": [
+            "error",
+            { "blankLine": "always", "prev": "expression", "next": "const" },
+            { "blankLine": "always", "prev": ["const", "let", "var"], "next": "*" },
+            { "blankLine": "always", "prev": "*", "next": "return" },
+            { "blankLine": "any", "prev": ["const", "let", "var"], "next": ["const", "let", "var"] }
+        ],
+        "no-multiple-empty-lines": ["error", { "max": 1 }],
+        "react/jsx-sort-default-props": ["warn"],
+        "no-case-declarations": "off",
+        "operator-linebreak": [
+            "error",
+            "after",
+            {
+                "overrides": {
+                    "?": "before",
+                    ":": "before"
+                }
+            }
+        ],
+        "guard-for-in": "off",
+        "react-hooks/exhaustive-deps": "warn",
+        "@typescript-eslint/no-unused-expressions": [
+            "error",
+            {
+                "allowShortCircuit": true,
+                "allowTernary": true
+            }
+        ]
+    }
+}

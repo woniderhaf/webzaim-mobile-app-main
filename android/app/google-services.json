@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "208660046890",
+    "project_id": "webzaimapp",
+    "storage_bucket": "webzaimapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208660046890:android:338f06af68ea721bbd0f53",
+        "android_client_info": {
+          "package_name": "com.app.web_zaim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208660046890-f3uq4ss2l4vvh577lt4a8najl1d4l068.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCewc5bXMDTly51n7lGAHC4O-ElbcrdVG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208660046890-f3uq4ss2l4vvh577lt4a8najl1d4l068.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "208660046890-gmqjiu0k5f9berfq8k6ehadeb0emidc5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wz.web-zaim"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208660046890:android:cd56fb77a39cd585bd0f53",
+        "android_client_info": {
+          "package_name": "com.company.webzaimapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208660046890-f3uq4ss2l4vvh577lt4a8najl1d4l068.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCewc5bXMDTly51n7lGAHC4O-ElbcrdVG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208660046890-f3uq4ss2l4vvh577lt4a8najl1d4l068.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "208660046890-gmqjiu0k5f9berfq8k6ehadeb0emidc5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wz.web-zaim"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208660046890:android:57955c0fd4e8bbcabd0f53",
+        "android_client_info": {
+          "package_name": "com.webzaim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208660046890-f3uq4ss2l4vvh577lt4a8najl1d4l068.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCewc5bXMDTly51n7lGAHC4O-ElbcrdVG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208660046890-f3uq4ss2l4vvh577lt4a8najl1d4l068.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "208660046890-gmqjiu0k5f9berfq8k6ehadeb0emidc5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wz.web-zaim"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
